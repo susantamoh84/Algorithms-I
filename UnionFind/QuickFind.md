@@ -23,3 +23,8 @@
     idx: 0   1   2   3   4   5   6   7   8   9
     id[] 1 | 1 | 1 | 8 | 8 | 1 | 1 | 1 | 8 | 8 |    <---- changed entries of 0, 5, 6 and 1,2,7
   
+    - union operation is very expensive
+      - For N elements to union on N array, time ~ O(n^2)
+      - quadratice time
+      - Quadratic time doesn't scale well with increasing amount of data
+      
