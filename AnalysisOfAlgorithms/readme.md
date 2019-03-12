@@ -57,3 +57,6 @@
   - Example of Sum of triplet = 0
     - for pair of numbers, perform a binary search for -(a+b)
     - running time ~ N^2 Lg N
+
+  - Best Case: Lower bound on cost
+  - Worst Case: Upper bound on cost
