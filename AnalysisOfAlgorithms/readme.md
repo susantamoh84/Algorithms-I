@@ -41,3 +41,14 @@
       
 # Order-of-Growth Classifications
 
+  - Common order-of-growth classifications
+  
+  | Order of growth | name            | typical code framework  | description         | example                | T(2N)/T(N)  |
+  | 1               | constant        | a = b + c               | statement           | add two numbers        | 1           |
+  | log N           | logarithmic     | while (N>1) { N = N /2 }| divide in half      | binary search          | ~ 1         |
+  | N               | linear          | for(int i=0;i<N;i++)    | loop                | find the maximum       | 2           |
+  | N log N         | linearithmic    | [see mergesort lecture] | divide and conquer  | mergesort              | ~ 2         |
+  | N^2             | quadratic       | for(int i...) for(..)   | double loop         | check all pairs        | 4           |
+  | N^3             | cubic           | for(..) for(..) for(..) | triple loop         | check all triples      | 8           |
+  | 2^N             | exponential     | [see combinatorial srch]| exhausive search    | check all subsets      | T(N)        |
+  
