@@ -72,6 +72,11 @@
 
       For example, if one of the connected components is {1,2,6,9}, then the find() method should return 9 for each of 
       the four elements in the connected components.
+  - **Successor with delete**
+      Given a set of n integers S={0,1,...,n−1} and a sequence of requests of the following form:
+        - Remove xx from SS
+        - Find the successor of x: the smallest y in S such that y≥x.
+      design a data type so that all operations (except construction) take logarithmic time or better in the worst case.
 
 # Web Explanation and more Problems
 
