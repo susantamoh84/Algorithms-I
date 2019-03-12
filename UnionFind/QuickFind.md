@@ -41,3 +41,9 @@
       - parent of 4 is 9.
       - 9 doesn't have a parent.
       
+  - Weighted Quick Union:
+    - Find: Identical to quick union ( lg N )
+    - Union: Modify quick-union to: ( lg N )
+      - Link root of smaller tree to root of larger tree
+      - Update the sz[] array
+      
