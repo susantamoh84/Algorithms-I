@@ -47,3 +47,5 @@
       - Link root of smaller tree to root of larger tree
       - Update the sz[] array
       
+  - Improvements:
+    - Path compression by pointing each of the smaller tree to the root of the larger tree
