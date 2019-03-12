@@ -49,3 +49,11 @@
       
   - Improvements:
     - Path compression by pointing each of the smaller tree to the root of the larger tree
+
+- Applications
+  - Percolation
+  - Games
+  - Dynamic Connectivity
+  - Least common ancestor
+  - Equivalence of finite state automata
+  - Kruskal's minimum spanning tree algorithm
