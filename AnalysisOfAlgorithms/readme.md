@@ -69,3 +69,12 @@
   | Big Theta   | asymptotic order    | Theta(N^2)  | 1/2*N^2, 10*N^2...                  | classify algorithms     |
   | Big Oh      | Theta(N^2) & smaller| BigOh(N^2)  | 10*N^2, 100*N, 22*N*LogN..          | develop upper bounds    |
   | Big Omega   | Theta(N^2) and large| Omega(N^2)  | 1/2*N^2, N^5, N^3 + 22*N* LogN..    | develop lower bounds    |
+
+# Typical memory usage for primitive types and arrays
+
+  | type      | bytes   |
+  | --------- | ------- |
+  | boolean   | 1       |
+  | byte      | 1       |
+  | char      | 2       |
+  | int       | 4       |
