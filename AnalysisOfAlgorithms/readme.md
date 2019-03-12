@@ -44,6 +44,7 @@
   - Common order-of-growth classifications
   
   | Order of growth | name            | typical code framework  | description         | example                | T(2N)/T(N)  |
+  | --------------- | --------------- | ----------------------- | ------------------- | ---------------------- | ----------- |
   | 1               | constant        | a = b + c               | statement           | add two numbers        | 1           |
   | log N           | logarithmic     | while (N>1) { N = N /2 }| divide in half      | binary search          | ~ 1         |
   | N               | linear          | for(int i=0;i<N;i++)    | loop                | find the maximum       | 2           |
