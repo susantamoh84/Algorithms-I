@@ -53,3 +53,7 @@
   | N^3             | cubic           | for(..) for(..) for(..) | triple loop         | check all triples      | 8           |
   | 2^N             | exponential     | [see combinatorial srch]| exhausive search    | check all subsets      | T(N)        |
   
+
+  - Example of Sum of triplet = 0
+    - for pair of numbers, perform a binary search for -(a+b)
+    - running time ~ N^2 Lg N
