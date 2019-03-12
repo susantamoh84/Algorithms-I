@@ -72,3 +72,7 @@
 
       For example, if one of the connected components is {1,2,6,9}, then the find() method should return 9 for each of 
       the four elements in the connected components.
+
+# Web Explanation and more Problems
+
+  - https://algs4.cs.princeton.edu/15uf/
