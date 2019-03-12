@@ -66,7 +66,7 @@
      (i.e., every member is a friend of a friend of a friend ... of a friend). Assume that the log file is sorted by 
      timestamp and that friendship is an equivalence relation. The running time of your algorithm should be mlogn or 
      better and use extra space proportional to n.
-  - Union-find with specific canonical element.
+  - *Union-find with specific canonical element*.
       Add a method find() to the union-find data type so that find(i) returns the largest element in the connected component 
       containing i. The operations, union(), connected(), and find() should all take logarithmic time or better.
 
