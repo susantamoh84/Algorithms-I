@@ -64,5 +64,22 @@
   - Update head and tail modulo the capacity
   - add resizing array
   
+# Applications:
+
+  - Make a recursive program non-recursive
+  - Arithmetic expression evaluation
+    - Two Stack algorithm
+      - value stack
+      - operation stack
+      - When encountered with right paranthesis:
+        - Apply opearator to the top 2 element and put the value back in the value stack
+      - When encountered with left paranthesis:
+        - Do nothing. Skip
+
+# Interview questions:
+
+  - Queue with two stacks. Implement a queue with two stacks so that each queue operations takes a constant amortized number of stack operations.
+  - Stack with max. Create a data structure that efficiently supports the stack operations (push and pop) and also a return-the-maximum operation. Assume the elements are real numbers so that you can compare them.
+  - Java generics. Explain why Java prohibits generic array creation.
 
 
