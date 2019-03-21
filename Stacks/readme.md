@@ -40,4 +40,29 @@
   - Every operation takes constant time in worst case
   - Uses extra time and space to deal with links
   
+# Queue
+
+  - apis same as Stack:
+  - enqueue(Object object)
+  - dequeue()
+  - isEmpty()
+  - size()
+  
+# LinkedList Implementation:
+
+  - 2 pointers - first & last item in the list
+  - dequeue - remove first element and change the first pointer
+  - enqueue - add new item in the last and change the last pointer
+  
+  - Linear time for enqueue
+  - Constant time for dequeue
+  
+# Resizing Array implementation:
+
+  - enqueue(): add new item at q[tail]
+  - dequeue(): remove item from q[head]
+  - Update head and tail modulo the capacity
+  - add resizing array
+  
+
 
