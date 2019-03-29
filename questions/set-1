@@ -1,0 +1,32 @@
+# Tricky Algorithm Questions:
+
+  - 1. Longest string in a palindrome 
+    - 1. Brute force ( O(n^3) )
+    - 2. Dynamic programming ( O(n^2) )
+    - 3. Manacher's algorithm ( O(n) )
+    
+  - 2. Given a lot of numbers (each number inputted one at a time) find and maintain a list of the 100 biggest numbers
+    - 1. using min-heap
+    
+  - 3. You are given 2 integers p and q. Complete the function calculatePower which takes two integers as 
+       arguments and returns the p to the power of q, without using the built-in power function. Expectation is to
+       do better than O(q).
+    - 1. using recursion: lg N
+    
+  - 4. You are given an integer array n. Complete the function sortIntegers which takes as argument an integer
+       array n of upto 1 million integers such that 1<=ni<=10 for every element ni in the array and returns the 
+       sorted array. The sort doesn't occure in-place.
+    - 1. initialize an array of size maxVal-minVal+1;
+         update the array index as arr[minVal+val]++ one value at a time
+         print the number/write to a file starting from arr[minVal] to arr[maxVal]
+         
+  - 5. You are given an alphanumeric string. Complete the function sortSegments that will segment the string into
+       substrings of consecutive letters or numbers and then sort the substrings. For example "AZQF013452BAB" will
+       result in AFQZ012345ABB".       
+    - 1. Split the string into parts and sort each part separately
+    
+  - 6. Binary representation of a given integer
+    - 1. recursively call and check for remainder
+    
+  - 7. 
+         
